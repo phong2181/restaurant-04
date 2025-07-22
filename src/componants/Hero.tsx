@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 export default function Hero(){
-    const [activeSection, setActiveSection] = useState('home');
+    const [, setActiveSection] = useState('home');
         const scrollToSection = (sectionId: string) => {
             setActiveSection(sectionId);
             const element = document.getElementById(sectionId);

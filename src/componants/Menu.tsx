@@ -7,7 +7,7 @@ interface MenuProps {
 }
 
 export default function Menu({ menuItems, beverages }: MenuProps){
-  const [selectedDish, setSelectedDish] = useState<Dish | null>(null);
+  const [, setSelectedDish] = useState<Dish | null>(null);
     return(
       <section id="menu" className="py-20 bg-amber-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
